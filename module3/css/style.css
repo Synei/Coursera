@@ -1,0 +1,85 @@
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+	padding-top: 100px;
+}
+/** HEADER **/
+#header-nav {
+	background-color: maroon;
+	border-radius:0;
+	border: 0;
+}
+#header-nav h1 {
+	color: white;
+	font-size:1.6em;
+}
+#header-nav h1:hover {
+	color: white;
+	opacity: .6;
+}
+.navbar-brand {
+	height: auto;
+}
+
+/** MAIN **/
+h2, h3 {
+	text-align: center;
+	color: black;
+	padding-top: 20px;
+}
+
+h2 {
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+main.container {
+	padding: 0 60px 40px 60px;
+}
+
+.col-md-12 {
+	background-color: #BFBBB9;
+}
+p {
+	font-size: 1.2em;
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+/** RESPONSIVE MENU **/
+.navbar-toggle {
+	margin-top: 33px;
+	background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: maroon;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	opacity: 0.6;
+	border-color: maroon;
+}
+.navbar-nav {
+	margin: 0 -15px;
+}
+
+#collapsable-nav ul li:nth-child(1), #collapsable-nav ul li:nth-child(2) {
+	border-bottom: 1px solid white;
+}
+#collapsable-nav ul li a {
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+}
+#collapsable-nav ul li:hover {
+	background-color: #BFBBB9;
+	cursor:pointer;
+}
+#collapsable-nav ul li a:hover {
+	color: black;
+}
